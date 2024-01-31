@@ -28,11 +28,18 @@ For up-to-date information on the minimum required specifications, please contac
 
 There are a number of different factors that effect the lifecycle of any purchase as well as the associated priority policies.
 
-Duration of Access:
+* Usage Duration: We will continue to operate GPUs in our cluster as long as they do not experience a fatal malfunction. This commitment is in line with our goal to maximize the utility of our resources while ensuring effective support for research needs.
 
-Investors who meet the investment requirements will receive priority access to the hardware they fund for the duration of the grant.
+* End of Life Policy: The retirement of any GPU model from our cluster will align with NVIDIA's end-of-life policies for that particular model. We will proactively monitor these guidelines to ensure our hardware remains current and supported.
 
-Handling Grants without a Defined Timeline
+### Duration of Access for Grants with a Defined Timeline:
+
+* Access Duration: Investors who meet the investment requirements will receive priority access to the hardware they fund for the duration of the grant. 
+
+* Maximum Priority Duration: The general rule is a maximum of five years of priority access to be provided as this roughly aligns with hardware generations. If there are specific concerns about this timeline then additional terms can be discussed, but it may require specific hardware to be purchased.
+
+
+### Handling Grants without a Defined Timeline
 
 * Default Allocation: Grants without a specified timeline will have a default allocation period of three years. Extensions require discussion and agreement.
 
@@ -40,18 +47,25 @@ Handling Grants without a Defined Timeline
 
 * Project Milestones: Regular milestone reporting is encouraged or required for ongoing validation of resource allocation.
 
+## 
+
 ## Other Considerations
 
-Resource Re-allocation Post-Grant: Develop policies for transitioning resources back to the general pool after the grant period, including a phased reduction in priority and a grace period for data migration.
+* Resource Re-allocation Post-Grant: Develop policies for transitioning resources back to the general pool after the grant period, including a phased reduction in priority and a grace period for data migration.
 
-Over-Subscription Policies: Implement policies for over-subscription to optimize resource utilization. Clear guidelines will manage and prioritize over-subscription.
+* Over-Subscription Policies: Implement policies for over-subscription to optimize resource utilization. Clear guidelines will manage and prioritize over-subscription.
 
-Emergency Resource Allocation: Implement a policy for time-sensitive research or critical data processing, offering temporary priority override.
+* Emergency Resource Allocation: Implement a policy for time-sensitive research or critical data processing, offering temporary priority override.
 
-Transparency in Resource Allocation: Maintain a transparent record or dashboard to display resource allocation and usage, enhancing trust and understanding among users.
+* Transparency in Resource Allocation: Maintain a transparent record or dashboard to display resource allocation and usage, enhancing trust and understanding among users.
 
-Semi-Priority Queue Access: For investors unable to meet the minimum investment requirements, there may be an opportunity to discuss access to semi-priority queues, contingent upon space availability.
+* Semi-Priority Queue Access: For investors unable to meet the minimum investment requirements, there may be an opportunity to discuss access to semi-priority queues, contingent upon space availability.
 
+## Troubleshooting and Support
+
+* Software issues (such as those related to the OS, server configuration and SLURM) and hardware issues are the responsibility of the system administrators. Debugging code and project level assistance is the responsibility of the person writing and executing the code.
+
+* If there are any critial failures in the cluster, the system administrators will do their best to diagnose and correct any problems. Hardware isn't unbreakable and if something is no longer usable by the cluster it will be removed, or replaced if possible.
 
 ## Additional Questions
 
