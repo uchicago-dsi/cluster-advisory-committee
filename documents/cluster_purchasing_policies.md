@@ -2,6 +2,27 @@
 
 This document contains an overview of the policies around (a) purchasing additional equipment for the DSI cluster and (b) the priorities that we can grant on that provisioned hardware.
 
+## Table of Contents
+<!-- do not change TOC, generated from script -->
+<!-- `npx markdown-toc -i cluster_purchasing_policies.md` -->
+<!-- tried automating but ran afoul of branch protections.>
+
+<!-- toc -->
+
+- [Overview and Framework](#overview-and-framework)
+- [Minimum Investment for Priority Hardware Solution:](#minimum-investment-for-priority-hardware-solution)
+- [Lifecycle Polices](#lifecycle-polices)
+  * [Duration of Access for Grants with a Defined Timeline:](#duration-of-access-for-grants-with-a-defined-timeline)
+  * [Handling Grants without a Defined Timeline](#handling-grants-without-a-defined-timeline)
+- [Other Purchasing Considerations](#other-purchasing-considerations)
+  * [Troubleshooting and Support](#troubleshooting-and-support)
+- [Additional Questions](#additional-questions)
+
+<!-- tocstop -->
+
+## Overview and Framework
+
+
 Our framework:
 1. We want to encourage group investment in the DSI cluster by granting priorities to specific purchased hardware to the people/project who made that purchase.
 2. We want to make sure that all purchased hardware conforms to the requirements of the cluster.
@@ -47,9 +68,7 @@ There are a number of different factors that effect the lifecycle of any purchas
 
 * Project Milestones: Regular milestone reporting is encouraged or required for ongoing validation of resource allocation.
 
-## 
-
-## Other Considerations
+## Other Purchasing Considerations
 
 * Resource Re-allocation Post-Grant: Develop policies for transitioning resources back to the general pool after the grant period, including a phased reduction in priority and a grace period for data migration.
 
@@ -61,7 +80,7 @@ There are a number of different factors that effect the lifecycle of any purchas
 
 * Semi-Priority Queue Access: For investors unable to meet the minimum investment requirements, there may be an opportunity to discuss access to semi-priority queues, contingent upon space availability.
 
-## Troubleshooting and Support
+### Troubleshooting and Support
 
 * Software issues (such as those related to the OS, server configuration and SLURM) and hardware issues are the responsibility of the system administrators. Debugging code and project level assistance is the responsibility of the person writing and executing the code.
 
