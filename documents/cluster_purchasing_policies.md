@@ -9,8 +9,10 @@ This document contains an overview of the policies around (a) purchasing additio
 
 <!-- toc -->
 
+- [Welcome to the DSI Investor Guidelines](#welcome-to-the-dsi-investor-guidelines)
 - [Overview and Framework](#overview-and-framework)
 - [Minimum Investment for Priority Hardware Solution:](#minimum-investment-for-priority-hardware-solution)
+- [Definition of Priority](#definition-of-priority)
 - [Lifecycle Polices](#lifecycle-polices)
   * [Duration of Access for Grants with a Defined Timeline:](#duration-of-access-for-grants-with-a-defined-timeline)
   * [Handling Grants without a Defined Timeline](#handling-grants-without-a-defined-timeline)
