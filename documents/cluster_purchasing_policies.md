@@ -20,6 +20,11 @@ This document contains an overview of the policies around (a) purchasing additio
 
 <!-- tocstop -->
 
+## Welcome to the DSI Investor Guidelines
+
+Welcome to the DSI Cluster Investment Framework, our pathway to advancing computational research through strategic partnerships. Our mission encourages investor engagement by offering priority access to select hardware and the broader cluster resources. This document, regularly updated based on feedback and technological advancements, embodies our commitment to adaptability and collaborative progress. Together, we aim to accelerate innovation and enhance research efficiency in a constantly evolving tech landscape.
+
+
 ## Overview and Framework
 
 
@@ -44,6 +49,10 @@ As of winter 2024, this investment looks like the follow, with a total cost of r
 * Misc. server components and cables
     
 For up-to-date information on the minimum required specifications, please contact DSI Techstaff.
+
+## Definition of Priority
+
+"Priority" within the DSI Cluster signifies the scheduling precedence assigned to jobs, based on SLURM's established policies. This status, influenced by an investor's contribution and the project's needs, ensures that high-priority jobs are queued and allocated resources more swiftly. Adopting SLURM's best practices allows us to balance resource distribution efficiently, rewarding investments with enhanced access and supporting advanced research activities.
 
 ## Lifecycle Polices
 
