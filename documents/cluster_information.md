@@ -12,10 +12,10 @@ This table contains the total resources on the cluster.
 
 | Resource Type        | Number of Units | 
 |:---------------------|--:|
-Number of Nodes	| 13
-Total Cores	| 800
-Total Storage | 166 TB
-GPUs | 48 Nvidia A40 48G GPUs  <br/> 8 Nvidia A100 80G GPUs
+Number of Nodes	| 17
+Total Cores	| 1088
+Total Storage |  204TB
+GPUs | 48 Nvidia A40 48G GPUs  <br/> 48 Nvidia A100 80G GPUs
 
 ### Generally Available Resources
 ---
@@ -24,10 +24,10 @@ The table below contains generally available resources on the cluster.
 
 | Resource Type        | Number of Units | 
 |:---------------------|--:|
-Number of Nodes | 12
+Number of Nodes | 16
 Total Cores | 768
-Total Storage | 166 TB
-GPUs | 48 Nvidia A40 48G GPUs 
+Total Storage | 204TB
+GPUs | 48 Nvidia A40 48G GPUs  <br/> 40 Nvidia A100 80G GPUs
 
 
 
