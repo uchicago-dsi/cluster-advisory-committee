@@ -12,6 +12,7 @@ This document contains an overview of the policies around (a) purchasing additio
 - [Welcome to the DSI Investor Guidelines](#welcome-to-the-dsi-investor-guidelines)
 - [Overview and Framework](#overview-and-framework)
 - [Minimum Investment for Priority Hardware Solution:](#minimum-investment-for-priority-hardware-solution)
+- [Current minimum hardware](#current-minimum-hardware)
 - [Definition of Priority](#definition-of-priority)
 - [Lifecycle Polices](#lifecycle-polices)
   * [Duration of Access for Grants with a Defined Timeline:](#duration-of-access-for-grants-with-a-defined-timeline)
@@ -51,6 +52,24 @@ As of winter 2024, this investment looks like the follow, with a total cost of r
 * Misc. server components and cables
     
 For up-to-date information on the minimum required specifications, please contact DSI Techstaff.
+
+## Current minimum hardware
+
+As of Winter 2024, the following types of GPUs are allowed and not-allowed to be purchased for the cluster. Note that this list is not comprehensive, if there are any questions about particular types of GPUs please contact techstaff.
+
+| Allowable | Not Allowed |
+| --- | --- |
+| <ul><li>H100</li><li>A100</li><li>L405S</li><li>A40 (Getting a bit long in the tooth)</li></ul> | <ul><li>4090</li></ul> | 
+
+There are a number of different reasons that hardware may not be allowed. We will try to keep this up to date regarding why certain decisions were made
+
+In the case of the 4090, at the time of this writing there are a number of reasons for not putting it in the cluster:
+1. These are consumer grade cards which NVIDIA's contracts frown on putting in servers (while one of our providers has mentioned they would "play ball", this is not something we want partake in).
+2. Installing them will not be easy and will require adding additional software and complexity into the server to manage them. 
+3. There are a number of unknowns about how they would integrate into our current clusters queue and allocation systems. Since these are consumer grade cards they do expose the same management tools and data as the enterprise grade GPUs. While we believe it is possible to get these working in our current system it would be both time consuming and potentially increase the fragility of the cluster.
+4. Consumer grade cards are not designed for the type of workloads that we do for AI training. The lifespan of the 4090 in particular is known to not be high.
+
+
 
 ## Definition of Priority
 
