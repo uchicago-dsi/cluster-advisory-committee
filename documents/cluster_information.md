@@ -15,7 +15,7 @@ This table contains the total resources on the cluster.
 Number of Nodes	| 17
 Total Cores	| 1088
 Total Storage |  204TB
-GPUs | 48 Nvidia A40 48G GPUs  <br/> 48 Nvidia A100 80G GPUs
+GPUs | 40 Nvidia A40 48G GPUs  <br/> 56 Nvidia A100 80G GPUs
 
 ### Generally Available Resources
 ---
