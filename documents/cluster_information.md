@@ -17,19 +17,6 @@ Total Cores	| 1088
 Total Storage |  204TB
 GPUs | 40 Nvidia A40 48G GPUs  <br/> 56 Nvidia A100 80G GPUs
 
-### Generally Available Resources
----
-
-The table below contains generally available resources on the cluster.
-
-| Resource Type        | Number of Units | 
-|:---------------------|--:|
-Number of Nodes | 16
-Total Cores | 768
-Total Storage | 204TB
-GPUs | 48 Nvidia A40 48G GPUs  <br/> 40 Nvidia A100 80G GPUs
-
-
 ### Space Availability and Server Room 
 
 The server room itself is also limited. In the current configuration we expect to be able to house of a total 41 total nodes.
