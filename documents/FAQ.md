@@ -31,6 +31,8 @@ If you are looking for compute resources and are more generally affiliated with 
 
 ### I want to install additional software.
 
+Please utilize Miniconda or MicroMamba to create a custom software environment tailored to your needs.
+
 
 ### Is there a way to use the cluster via a GUI?
 
