@@ -16,6 +16,7 @@ This document contains some frequently asked questions about the cluster and its
   * [The current time limit on jobs is too low for what I want to do. Can I increase the job time limit?](#the-current-time-limit-on-jobs-is-too-low-for-what-i-want-to-do-can-i-increase-the-job-time-limit)
   * [I am currently limited to eight concurrent jobs (on either CPU or GPU), my jobs are very small. Can I increase the job limit? (AKA The QOS which is applied to everyone is limited to 8 concurrent jobs).](#i-am-currently-limited-to-eight-concurrent-jobs-on-either-cpu-or-gpu-my-jobs-are-very-small-can-i-increase-the-job-limit-aka-the-qos-which-is-applied-to-everyone-is-limited-to-8-concurrent-jobs)
   * [I feel like the cluster isn't working for me. Can we set up any additional configurations to allow for my specific job?](#i-feel-like-the-cluster-isnt-working-for-me-can-we-set-up-any-additional-configurations-to-allow-for-my-specific-job)
+  * [There are processes not owned by me running on the GPU that I reserved. Is this expected?](#there-are-processes-not-owned-by-me-running-on-the-gpu-that-i-reserved-is-this-expected)
 
 <!-- tocstop -->
 
@@ -54,3 +55,8 @@ The cluster is designed to efficiently process the most common use cases. We con
 
   1. Use an alternative compute resources (such as [AWS](https://aws.amazon.com/), [GCP](https://cloud.google.com/) or [UChicago's RCC](https://rcc.uchicago.edu/)).
   2. Purchase specific compute within the guidelines listed [here](./cluster_purchasing_policies.md). For allocated resources we are able to implement alternative QOS policies.
+
+### There are processes not owned by me running on the GPU that I reserved. Is this expected? 
+
+Yes. In SLURM, this is called OverSubscribe. If a user is not utilizing a resource (GPU, CPU, or MEM) completely, then SLURM will assign jobs to the portion of your allocation that is unused.
+
